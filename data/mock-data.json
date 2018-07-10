@@ -1,0 +1,750 @@
+{
+  "items": [
+    {
+      "tags": [
+        "javascript",
+        "jquery"
+      ],
+      "owner": {
+        "reputation": 49,
+        "user_id": 7991717,
+        "user_type": "registered",
+        "accept_rate": 40,
+        "profile_image": "https://www.gravatar.com/avatar/730ba1dace44e4932684e5e938dbe25a?s=128&d=identicon&r=PG&f=1",
+        "display_name": "jinfy",
+        "link": "https://stackoverflow.com/users/7991717/jinfy"
+      },
+      "is_answered": false,
+      "view_count": 30,
+      "answer_count": 4,
+      "score": -2,
+      "last_activity_date": 1531230807,
+      "creation_date": 1531229369,
+      "last_edit_date": 1531229995,
+      "question_id": 51266600,
+      "link": "https://stackoverflow.com/questions/51266600/how-to-hidden-parent-element-innertext-if-span-tag-is-exits-some-value-in-jquery",
+      "title": "how to hidden parent element innertext if span tag is exits some value in jquery"
+    },
+    {
+      "tags": [
+        "wordpress",
+        ".htaccess",
+        "hide"
+      ],
+      "owner": {
+        "reputation": 457,
+        "user_id": 4484799,
+        "user_type": "registered",
+        "accept_rate": 37,
+        "profile_image": "https://www.gravatar.com/avatar/2107316376424ab2850c514bba9fd39a?s=128&d=identicon&r=PG",
+        "display_name": "Uriahs Victor",
+        "link": "https://stackoverflow.com/users/4484799/uriahs-victor"
+      },
+      "is_answered": false,
+      "view_count": 1568,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1531230806,
+      "creation_date": 1423443850,
+      "question_id": 28401345,
+      "link": "https://stackoverflow.com/questions/28401345/hide-wp-admin-and-wp-login-php-from-htaccess",
+      "title": "Hide wp-admin and wp-login.php from .htaccess"
+    },
+    {
+      "tags": [
+        "openstack",
+        "keystore",
+        "openstack-swift"
+      ],
+      "owner": {
+        "reputation": 2223,
+        "user_id": 3837778,
+        "user_type": "registered",
+        "accept_rate": 71,
+        "profile_image": "https://www.gravatar.com/avatar/12c217d346b797e1a9b4d34b9aa91dce?s=128&d=identicon&r=PG&f=1",
+        "display_name": "BAE",
+        "link": "https://stackoverflow.com/users/3837778/bae"
+      },
+      "is_answered": false,
+      "view_count": 8,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1531230804,
+      "creation_date": 1530832715,
+      "question_id": 51201077,
+      "link": "https://stackoverflow.com/questions/51201077/can-i-use-username-in-acl-of-openstack-swift",
+      "title": "Can I use username in ACL of openstack swift"
+    },
+    {
+      "tags": [
+        "http",
+        "post",
+        "push-notification",
+        "arduino"
+      ],
+      "owner": {
+        "reputation": 35,
+        "user_id": 9818468,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/16eba9e1a41cafa96f35bc4b707da557?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Korenron",
+        "link": "https://stackoverflow.com/users/9818468/korenron"
+      },
+      "is_answered": false,
+      "view_count": 21,
+      "answer_count": 0,
+      "score": -1,
+      "last_activity_date": 1531230802,
+      "creation_date": 1531051475,
+      "last_edit_date": 1531230802,
+      "question_id": 51231815,
+      "link": "https://stackoverflow.com/questions/51231815/arduino-http-post-response-doesnt-work",
+      "title": "Arduino HTTP post response doesn&#39;t work"
+    },
+    {
+      "tags": [
+        "ios",
+        "mpmediapickercontroller"
+      ],
+      "owner": {
+        "reputation": 2166,
+        "user_id": 316994,
+        "user_type": "registered",
+        "accept_rate": 35,
+        "profile_image": "https://www.gravatar.com/avatar/a84816cfbfd0e5796e9e7bcf5e37e672?s=128&d=identicon&r=PG",
+        "display_name": "fvisticot",
+        "link": "https://stackoverflow.com/users/316994/fvisticot"
+      },
+      "is_answered": false,
+      "view_count": 148,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1531230802,
+      "creation_date": 1494848133,
+      "question_id": 43978454,
+      "link": "https://stackoverflow.com/questions/43978454/download-mpmediaitem-music-from-cloud",
+      "title": "Download MPMediaItem music from cloud"
+    },
+    {
+      "tags": [
+        "excel-vba",
+        "dll",
+        "com",
+        "lotus-notes"
+      ],
+      "owner": {
+        "reputation": 76,
+        "user_id": 2551954,
+        "user_type": "registered",
+        "accept_rate": 60,
+        "profile_image": "https://graph.facebook.com/863335593/picture?type=large",
+        "display_name": "Terry Boyd",
+        "link": "https://stackoverflow.com/users/2551954/terry-boyd"
+      },
+      "is_answered": false,
+      "view_count": 14,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1531230801,
+      "creation_date": 1531204734,
+      "question_id": 51258653,
+      "link": "https://stackoverflow.com/questions/51258653/is-there-a-way-to-restrict-crud-operations-on-notes-domino-data-using-an-alterna",
+      "title": "Is there a way to restrict CRUD operations on Notes/Domino data using an alternative application?"
+    },
+    {
+      "tags": [
+        "events",
+        "kubernetes"
+      ],
+      "owner": {
+        "reputation": 6,
+        "user_id": 4188926,
+        "user_type": "registered",
+        "profile_image": "https://lh4.googleusercontent.com/-rfxp6AF_6SY/AAAAAAAAAAI/AAAAAAAAABA/SoKcz3Zjoj0/photo.jpg?sz=128",
+        "display_name": "wpcnjupt",
+        "link": "https://stackoverflow.com/users/4188926/wpcnjupt"
+      },
+      "is_answered": false,
+      "view_count": 22,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1531230801,
+      "creation_date": 1531218091,
+      "question_id": 51262777,
+      "link": "https://stackoverflow.com/questions/51262777/how-to-use-kubernetes-lib-to-watch-all-events",
+      "title": "how to use kubernetes lib to watch all events"
+    },
+    {
+      "tags": [
+        "vbscript",
+        "timeout",
+        "external",
+        "launch"
+      ],
+      "owner": {
+        "reputation": 3,
+        "user_id": 8206274,
+        "user_type": "registered",
+        "profile_image": "https://graph.facebook.com/10207462387956554/picture?type=large",
+        "display_name": "Tiago",
+        "link": "https://stackoverflow.com/users/8206274/tiago"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1531230801,
+      "creation_date": 1531230801,
+      "question_id": 51267110,
+      "link": "https://stackoverflow.com/questions/51267110/launch-an-external-exe-and-set-timeout-vbs",
+      "title": "Launch an external exe and set timeout VBS"
+    },
+    {
+      "tags": [
+        "android-studio",
+        "android-emulator",
+        "flutter"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 9329799,
+        "user_type": "registered",
+        "profile_image": "https://lh4.googleusercontent.com/-y8Dj-a__Fas/AAAAAAAAAAI/AAAAAAAAAP4/wGKw1t_aGvI/photo.jpg?sz=128",
+        "display_name": "JamesDev",
+        "link": "https://stackoverflow.com/users/9329799/jamesdev"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1531230800,
+      "creation_date": 1531230800,
+      "question_id": 51267109,
+      "link": "https://stackoverflow.com/questions/51267109/flutter-emulator-launched-but-not-detected-by-android-studio",
+      "title": "&lt;Flutter&gt; emulator launched but not detected by android studio"
+    },
+    {
+      "tags": [
+        "sql",
+        "sql-server"
+      ],
+      "owner": {
+        "reputation": 13,
+        "user_id": 6717946,
+        "user_type": "registered",
+        "profile_image": "https://graph.facebook.com/644834046193/picture?type=large",
+        "display_name": "Don Alcombright",
+        "link": "https://stackoverflow.com/users/6717946/don-alcombright"
+      },
+      "is_answered": false,
+      "view_count": 8,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1531230799,
+      "creation_date": 1531230397,
+      "question_id": 51266965,
+      "link": "https://stackoverflow.com/questions/51266965/sql-query-to-attach-an-mdf-without-an-ldf-but-set-the-ldf-path",
+      "title": "SQL Query to Attach an MDF without an LDF but set the LDF path"
+    },
+    {
+      "tags": [
+        "mysql",
+        "sql"
+      ],
+      "owner": {
+        "reputation": 27,
+        "user_id": 8409763,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/d32a07bbd3e5c7dfe226bf961208cf95?s=128&d=identicon&r=PG&f=1",
+        "display_name": "jazz",
+        "link": "https://stackoverflow.com/users/8409763/jazz"
+      },
+      "is_answered": true,
+      "view_count": 32,
+      "answer_count": 4,
+      "score": 2,
+      "last_activity_date": 1531230796,
+      "creation_date": 1531229041,
+      "last_edit_date": 1531230189,
+      "question_id": 51266480,
+      "link": "https://stackoverflow.com/questions/51266480/why-i-cant-find-data-when-using-but-when-use-like-it-show-up",
+      "title": "why i cant find data when using = but when use like it show up"
+    },
+    {
+      "tags": [
+        "ibm-midrange",
+        "rpgle",
+        "rpg"
+      ],
+      "owner": {
+        "reputation": 2,
+        "user_id": 5114266,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/750d18dc9493ea2dffe7bb752935c094?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Scrober",
+        "link": "https://stackoverflow.com/users/5114266/scrober"
+      },
+      "is_answered": false,
+      "view_count": 18,
+      "answer_count": 1,
+      "score": -2,
+      "last_activity_date": 1531230796,
+      "creation_date": 1531196021,
+      "last_edit_date": 1531230796,
+      "question_id": 51257162,
+      "link": "https://stackoverflow.com/questions/51257162/packaged-data-free-form-rpg",
+      "title": "Packaged Data Free-form RPG"
+    },
+    {
+      "tags": [
+        "c",
+        "macros",
+        "c89"
+      ],
+      "owner": {
+        "reputation": 25,
+        "user_id": 4743279,
+        "user_type": "registered",
+        "profile_image": "https://i.stack.imgur.com/Ds1OE.jpg?s=128&g=1",
+        "display_name": "Antonino DG",
+        "link": "https://stackoverflow.com/users/4743279/antonino-dg"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1531230795,
+      "creation_date": 1531230795,
+      "question_id": 51267107,
+      "link": "https://stackoverflow.com/questions/51267107/use-of-define-to-create-a-dummy-record-compatible-with-c89-std",
+      "title": "use of #define to create a dummy record compatible with C89 std"
+    },
+    {
+      "tags": [
+        "javascript",
+        "jquery"
+      ],
+      "owner": {
+        "reputation": 7,
+        "user_id": 7151130,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/-rOCjJBu9_AU/AAAAAAAAAAI/AAAAAAAAAVM/9GnGF-JKSZA/photo.jpg?sz=128",
+        "display_name": "Erick Vazovsky",
+        "link": "https://stackoverflow.com/users/7151130/erick-vazovsky"
+      },
+      "is_answered": true,
+      "view_count": 39,
+      "accepted_answer_id": 51266641,
+      "answer_count": 3,
+      "score": 0,
+      "last_activity_date": 1531230795,
+      "creation_date": 1531228798,
+      "last_edit_date": 1531230795,
+      "question_id": 51266378,
+      "link": "https://stackoverflow.com/questions/51266378/jquery-refreshes-page-even-with-return-false",
+      "title": "jquery refreshes page even with return false"
+    },
+    {
+      "tags": [
+        "android",
+        "firebase",
+        "firebase-database"
+      ],
+      "owner": {
+        "reputation": 2351,
+        "user_id": 5250273,
+        "user_type": "registered",
+        "accept_rate": 86,
+        "profile_image": "https://i.stack.imgur.com/ZFdw5.jpg?s=128&g=1",
+        "display_name": "Ugurcan Yildirim",
+        "link": "https://stackoverflow.com/users/5250273/ugurcan-yildirim"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1531230792,
+      "creation_date": 1531230792,
+      "question_id": 51267106,
+      "link": "https://stackoverflow.com/questions/51267106/firebase-how-to-force-single-value-event-to-fetch-remote-data",
+      "title": "Firebase - How to force single value event to fetch remote data"
+    },
+    {
+      "tags": [
+        "elixir",
+        "phoenix-framework"
+      ],
+      "owner": {
+        "reputation": 4631,
+        "user_id": 1087469,
+        "user_type": "registered",
+        "accept_rate": 74,
+        "profile_image": "https://www.gravatar.com/avatar/84cd9fd20832381fc78084aac4cb4b6c?s=128&d=identicon&r=PG",
+        "display_name": "leifg",
+        "link": "https://stackoverflow.com/users/1087469/leifg"
+      },
+      "is_answered": false,
+      "view_count": 34,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1531230791,
+      "creation_date": 1528108535,
+      "last_edit_date": 1531203949,
+      "question_id": 50678607,
+      "link": "https://stackoverflow.com/questions/50678607/tesing-phoenix-controllers-but-skip-plugs",
+      "title": "Tesing Phoenix Controllers but skip Plugs"
+    },
+    {
+      "tags": [
+        "mysql",
+        "sql"
+      ],
+      "owner": {
+        "reputation": 870,
+        "user_id": 5285068,
+        "user_type": "registered",
+        "accept_rate": 35,
+        "profile_image": "https://www.gravatar.com/avatar/8967c033e617a2fb6f7d8fd7b5a12eb5?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Joe",
+        "link": "https://stackoverflow.com/users/5285068/joe"
+      },
+      "is_answered": true,
+      "view_count": 29,
+      "closed_date": 1531230693,
+      "answer_count": 4,
+      "score": 0,
+      "last_activity_date": 1531230790,
+      "creation_date": 1531226444,
+      "question_id": 51265505,
+      "link": "https://stackoverflow.com/questions/51265505/how-to-insert-in-one-table-from-another-table-by-using-join-that-eliminates-dupl",
+      "closed_reason": "duplicate",
+      "title": "How to insert in one table from another table by using Join that eliminates duplicates"
+    },
+    {
+      "tags": [
+        "java"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 10059614,
+        "user_type": "registered",
+        "profile_image": "https://lh5.googleusercontent.com/-PK3npl7l1sA/AAAAAAAAAAI/AAAAAAAAATM/irKpth8yLo4/photo.jpg?sz=128",
+        "display_name": "Evan Najor",
+        "link": "https://stackoverflow.com/users/10059614/evan-najor"
+      },
+      "is_answered": false,
+      "view_count": 23,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1531230790,
+      "creation_date": 1531230561,
+      "question_id": 51267024,
+      "link": "https://stackoverflow.com/questions/51267024/how-to-run-a-java-class-file-in-windows-10",
+      "title": "How to run a java class file in windows 10"
+    },
+    {
+      "tags": [
+        "c++",
+        "c++11"
+      ],
+      "owner": {
+        "reputation": 314,
+        "user_id": 6861219,
+        "user_type": "registered",
+        "accept_rate": 88,
+        "profile_image": "https://graph.facebook.com/141586299631822/picture?type=large",
+        "display_name": "Ziqi Liu",
+        "link": "https://stackoverflow.com/users/6861219/ziqi-liu"
+      },
+      "is_answered": true,
+      "view_count": 77,
+      "answer_count": 4,
+      "score": 4,
+      "last_activity_date": 1531230790,
+      "creation_date": 1531227996,
+      "question_id": 51266104,
+      "link": "https://stackoverflow.com/questions/51266104/c-default-implementation-of-stack-and-queue",
+      "title": "C++ default implementation of stack and queue"
+    },
+    {
+      "tags": [
+        "android",
+        "xml",
+        "android-layout",
+        "expandablelistview",
+        "expandablelistadapter"
+      ],
+      "owner": {
+        "reputation": 92,
+        "user_id": 4697248,
+        "user_type": "registered",
+        "accept_rate": 73,
+        "profile_image": "https://www.gravatar.com/avatar/e1165ebd89d5fac0fc25365c052d1cea?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Ajay Chauhan",
+        "link": "https://stackoverflow.com/users/4697248/ajay-chauhan"
+      },
+      "is_answered": false,
+      "view_count": 2,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1531230788,
+      "creation_date": 1531230788,
+      "question_id": 51267101,
+      "link": "https://stackoverflow.com/questions/51267101/how-to-change-color-of-expandablelistview-title-color-when-expanded-programatica",
+      "title": "How to change color of ExpandableListView title color when expanded programatically?"
+    },
+    {
+      "tags": [
+        "powershell",
+        "active-directory",
+        "domaincontroller"
+      ],
+      "owner": {
+        "reputation": 6,
+        "user_id": 10059525,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/2ba28635c609b266d2d13677e0e431a4?s=128&d=identicon&r=PG&f=1",
+        "display_name": "MisterMan",
+        "link": "https://stackoverflow.com/users/10059525/misterman"
+      },
+      "is_answered": false,
+      "view_count": 8,
+      "answer_count": 3,
+      "score": 1,
+      "last_activity_date": 1531230786,
+      "creation_date": 1531229878,
+      "question_id": 51266766,
+      "link": "https://stackoverflow.com/questions/51266766/compare-lastlogindate-of-user-from-multiple-dcs",
+      "title": "Compare LastLoginDate of user from multiple DC&#39;s"
+    },
+    {
+      "tags": [
+        "java",
+        "sql",
+        "hibernate",
+        "microservices",
+        "hibernate-mapping"
+      ],
+      "owner": {
+        "reputation": 786,
+        "user_id": 813102,
+        "user_type": "registered",
+        "accept_rate": 74,
+        "profile_image": "https://www.gravatar.com/avatar/5fc54ef1351c176ff60ac9a7c1ee6f8b?s=128&d=identicon&r=PG",
+        "display_name": "big",
+        "link": "https://stackoverflow.com/users/813102/big"
+      },
+      "is_answered": false,
+      "view_count": 49,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1531230784,
+      "creation_date": 1531127931,
+      "last_edit_date": 1531137813,
+      "question_id": 51242037,
+      "link": "https://stackoverflow.com/questions/51242037/hibernate-join-table-in-microservice-architecture",
+      "title": "Hibernate Join table in microservice architecture"
+    },
+    {
+      "tags": [
+        "inno-setup",
+        "wizard"
+      ],
+      "owner": {
+        "reputation": 60,
+        "user_id": 1665388,
+        "user_type": "registered",
+        "accept_rate": 100,
+        "profile_image": "https://www.gravatar.com/avatar/5feb0cb765873c9e194c50a1c791fdc2?s=128&d=identicon&r=PG&f=1",
+        "display_name": "solarisx",
+        "link": "https://stackoverflow.com/users/1665388/solarisx"
+      },
+      "is_answered": false,
+      "view_count": 4,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1531230784,
+      "creation_date": 1531229886,
+      "question_id": 51266768,
+      "link": "https://stackoverflow.com/questions/51266768/multiple-wizardsmallimagefiles-in-inno-setup",
+      "title": "Multiple WizardSmallImageFiles in Inno Setup"
+    },
+    {
+      "tags": [
+        "haproxy"
+      ],
+      "owner": {
+        "reputation": 6,
+        "user_id": 9665038,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=128",
+        "display_name": "Meinert Schwartau",
+        "link": "https://stackoverflow.com/users/9665038/meinert-schwartau"
+      },
+      "is_answered": false,
+      "view_count": 89,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1531230783,
+      "creation_date": 1524064284,
+      "question_id": 49903261,
+      "link": "https://stackoverflow.com/questions/49903261/haproxy-use-backend-path-reg-does-not-match",
+      "title": "haproxy use_backend path_reg does not match"
+    },
+    {
+      "tags": [
+        "sql-server",
+        "sql-server-2008",
+        "logic"
+      ],
+      "owner": {
+        "reputation": 73,
+        "user_id": 6807281,
+        "user_type": "registered",
+        "accept_rate": 50,
+        "profile_image": "https://lh3.googleusercontent.com/-eWf43oc-QwQ/AAAAAAAAAAI/AAAAAAAABAw/qdhOyeq2p44/photo.jpg?sz=128",
+        "display_name": "Dody Suhada",
+        "link": "https://stackoverflow.com/users/6807281/dody-suhada"
+      },
+      "is_answered": false,
+      "view_count": 27,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1531230783,
+      "creation_date": 1531216236,
+      "last_edit_date": 1531230783,
+      "question_id": 51262139,
+      "link": "https://stackoverflow.com/questions/51262139/select-calculated-value-from-previous-row",
+      "title": "select calculated value from previous row"
+    },
+    {
+      "tags": [
+        "user-interface",
+        "go",
+        "packages"
+      ],
+      "owner": {
+        "reputation": 10875,
+        "user_id": 3522130,
+        "user_type": "registered",
+        "accept_rate": 83,
+        "profile_image": "https://www.gravatar.com/avatar/f83ceae9da7eb5d15dba167d1ff9357e?s=128&d=identicon&r=PG&f=1",
+        "display_name": "rnso",
+        "link": "https://stackoverflow.com/users/3522130/rnso"
+      },
+      "is_answered": false,
+      "view_count": 21,
+      "answer_count": 0,
+      "score": -1,
+      "last_activity_date": 1531230781,
+      "creation_date": 1531214734,
+      "last_edit_date": 1531230781,
+      "question_id": 51261644,
+      "link": "https://stackoverflow.com/questions/51261644/nuklear-gui-demo-not-running",
+      "title": "Nuklear GUI demo not running"
+    },
+    {
+      "tags": [
+        "swift",
+        "tableview",
+        "plist",
+        "tablecell"
+      ],
+      "owner": {
+        "reputation": 13,
+        "user_id": 9980763,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/fde37a48270b9c60248c9d64f79c9ac3?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Z.Q",
+        "link": "https://stackoverflow.com/users/9980763/z-q"
+      },
+      "is_answered": false,
+      "view_count": 6,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1531230781,
+      "creation_date": 1531230124,
+      "last_edit_date": 1531230781,
+      "question_id": 51266857,
+      "link": "https://stackoverflow.com/questions/51266857/why-i-delete-a-key-value-from-plist-it-shows-success-but-later-it-re-appears",
+      "title": "Why I delete a Key-Value from plist ,It shows success,but later it re-appears?"
+    },
+    {
+      "tags": [
+        "excel",
+        "vba",
+        "excel-vba"
+      ],
+      "owner": {
+        "reputation": 6,
+        "user_id": 4320871,
+        "user_type": "registered",
+        "profile_image": "https://graph.facebook.com/100007933562104/picture?type=large",
+        "display_name": "Kunal Gupta",
+        "link": "https://stackoverflow.com/users/4320871/kunal-gupta"
+      },
+      "is_answered": true,
+      "view_count": 22,
+      "answer_count": 2,
+      "score": 1,
+      "last_activity_date": 1531230780,
+      "creation_date": 1531226945,
+      "last_edit_date": 1531227232,
+      "question_id": 51265689,
+      "link": "https://stackoverflow.com/questions/51265689/how-to-enable-print-button-in-printpreview-using-vba",
+      "title": "How to enable Print button in PrintPreview using vba"
+    },
+    {
+      "tags": [
+        "jquery",
+        "html",
+        "google-tag-manager"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 9493394,
+        "user_type": "registered",
+        "profile_image": "https://graph.facebook.com/10215829404590484/picture?type=large",
+        "display_name": "DeMo",
+        "link": "https://stackoverflow.com/users/9493394/demo"
+      },
+      "is_answered": true,
+      "view_count": 9,
+      "answer_count": 2,
+      "score": -1,
+      "last_activity_date": 1531230779,
+      "creation_date": 1531229157,
+      "last_edit_date": 1531229239,
+      "question_id": 51266516,
+      "link": "https://stackoverflow.com/questions/51266516/jquery-replace-with-script",
+      "title": "jquery replace with &quot;script&quot;"
+    },
+    {
+      "tags": [
+        "python",
+        "leaflet"
+      ],
+      "owner": {
+        "reputation": 343,
+        "user_id": 7399312,
+        "user_type": "registered",
+        "accept_rate": 45,
+        "profile_image": "https://i.stack.imgur.com/B0iGb.jpg?s=128&g=1",
+        "display_name": "Samuel M.",
+        "link": "https://stackoverflow.com/users/7399312/samuel-m"
+      },
+      "is_answered": false,
+      "view_count": 3,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1531230779,
+      "creation_date": 1531230779,
+      "question_id": 51267097,
+      "link": "https://stackoverflow.com/questions/51267097/leaflet-jupyter-plot-color-density-heat-map",
+      "title": "leaflet jupyter plot color density heat map"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 300,
+  "quota_remaining": 299
+}
