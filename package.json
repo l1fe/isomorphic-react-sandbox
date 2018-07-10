@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start-dev": "cross-env NODE_ENV=development babel-node server --useLiveData=true"
+    "start-dev": "cross-env NODE_ENV=development babel-node server --useLiveData=true --useServerRender=true"
   },
   "dependencies": {
     "babel-core": "^6.26.3",

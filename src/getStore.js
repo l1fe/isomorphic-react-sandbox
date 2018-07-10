@@ -7,7 +7,6 @@ import fetchQuestionsSaga from './sagas/fetch-questions.saga';
 import * as reducers from './reducers';
 
 const defaultState = {
-  test: 'Test Variable',
 };
 
 export default function(state = defaultState) {

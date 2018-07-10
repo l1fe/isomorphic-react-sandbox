@@ -3,17 +3,15 @@ import { connect } from 'react-redux';
 
 import { QuestionList } from './components';
 
-const App = ({ test }) => (
+const App = () => (
   <div>
-    <h1>Isomorphic React App {test}</h1>
+    <h1>Isomorphic React App</h1>
     <div>
       <QuestionList />
     </div>
   </div>
 );
 
-const mapStateToProps = (state, ownProps) => ({
-  ...state,
-});
 
-export default connect(mapStateToProps)(App);
+
+export default connect()(App);
