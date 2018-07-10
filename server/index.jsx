@@ -74,8 +74,8 @@ app.get(['/'], function* (req,res) {
 
   const initialState = { questions: { items: [] } };
 
-  const items = yield getQuestions();
-  initialState.questions.items = items;
+  const questions = yield getQuestions();
+  initialState.questions.items = questions.items;
 
   const store = getStore(initialState);
 
