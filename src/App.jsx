@@ -1,10 +1,14 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-const App = () => (
+const App = ({ test }) => (
   <div>
-    <h1>Isomorphic React App</h1>
+    <h1>Isomorphic React App {test}</h1>
   </div>
 );
 
-export default App;
+const mapStateToProps = (state, ownProps) => ({
+  ...state,
+});
+
+export default connect(mapStateToProps)(App);
