@@ -7,6 +7,8 @@ import getStore from './getStore';
 
 const store = getStore();
 
+const fetchDataForLocation = () => store.dispatch({ type: 'REQUEST_FETCH_QUESTIONS' });
+
 const render = (_App) => {
   ReactDOM.render(
     <Provider store={store}>
@@ -17,3 +19,5 @@ const render = (_App) => {
 }
 
 render(App);
+
+fetchDataForLocation();
