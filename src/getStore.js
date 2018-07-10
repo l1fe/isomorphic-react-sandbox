@@ -6,6 +6,11 @@ const initialState = {
 };
 
 export default function(state = initialState) {
-  const store = createStore(identity, state);
+  const store = createStore(
+    identity,
+    state,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  );
+
   return store;
 };
