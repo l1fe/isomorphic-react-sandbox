@@ -2,6 +2,7 @@ import webpack from 'webpack';
 import path from 'path';
 
 export default {
+  mode: 'development',
   entry: [
     'webpack-hot-middleware/client?reload=true',
     'babel-regenerator-runtime',
