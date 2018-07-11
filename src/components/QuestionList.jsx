@@ -23,7 +23,10 @@ const QuestionList = ({ questions }) => (
 );
 
 const mapStateToProps = (state) => ({
-  questions: state.questions.items,
+  questions: state.questions.items.map(id => ({
+    question_id: id,
+    ...state.questions.info[id],
+  })),
 });
 
 export default connect(mapStateToProps)(QuestionList);

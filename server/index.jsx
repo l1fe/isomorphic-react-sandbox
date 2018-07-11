@@ -77,7 +77,7 @@ if (process.env.NODE_ENV === 'development') {
 app.get(['/', '/questions/:id'], function* (req, res) {
   let index = yield fs.readFile('public/index.html', 'utf-8');
 
-  const initialState = { questions: { items: [] } };
+  const initialState = { questions: { items: [], info: {} } };
 
   const history = createHistory({
     initialEntries: [req.path],
@@ -87,12 +87,12 @@ app.get(['/', '/questions/:id'], function* (req, res) {
     const questionId = req.params.id;
     const data = yield getQuestion(questionId);
     const questionDetails = data.items[0];
-
-    console.log('Got question details', questionDetails);
     initialState.questions.items = [{ ...questionDetails, question_id: questionId }];
+    initialState.questions.info = { [questionId]: questionDetails };
   } else {
     const questions = yield getQuestions();
-    initialState.questions.items = questions.items;
+    initialState.questions.items = questions.items.map(item => item.question_id);
+    initialState.questions.info = questions.items.reduce((total, val) => ({ ...total, [val.question_id]: val }), { });
   }
 
   const store = getStore(history, initialState);

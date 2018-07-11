@@ -23,7 +23,7 @@ const QuestionDetail = ({ title, body, answer_count: answerCount, tags }) => (
 );
 
 const mapStateToProps = (state, ownProps) => ({
-  ...state.questions.items.find(({ question_id }) => question_id == ownProps.question_id),
+  ...(state.questions.info[ownProps.question_id] || {}),
 });
 
 export default connect(mapStateToProps)(QuestionDetail);
