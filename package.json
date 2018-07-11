@@ -6,7 +6,8 @@
   "scripts": {
     "start-dev": "cross-env NODE_ENV=development babel-node server --useLiveData=false --useServerRender=true",
     "build": "cross-env NODE_ENV=production webpack --config ./webpack.config.prod.babel.js",
-    "start-prod": "npm run build && cross-env NODE_ENV=production babel-node server --useLiveData=false --useServerRender=true"
+    "start-prod": "npm run build && cross-env NODE_ENV=production babel-node server --useLiveData=false --useServerRender=true",
+    "test": "jest"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
