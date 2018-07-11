@@ -5,6 +5,7 @@ import webpack from 'webpack';
 import { argv } from 'optimist';
 import { get } from 'request-promise';
 import { delay } from 'redux-saga';
+import path from 'path';
 
 import { question, questions } from '../data/api-real-url';
 
@@ -69,6 +70,8 @@ if (process.env.NODE_ENV === 'development') {
   }));
 
   app.use(require('webpack-hot-middleware')(compiler));
+} else {
+  app.use(express.static(path.resolve(__dirname, '../dist')));
 }
 
 app.get(['/', '/questions/:id'], function* (req, res) {

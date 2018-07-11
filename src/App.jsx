@@ -22,6 +22,4 @@ const App = () => (
   </div>
 );
 
-
-
 export default withRouter(connect()(App));
