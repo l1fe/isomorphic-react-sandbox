@@ -1,18 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+import { ConnectedRouter } from 'react-router-redux';
+import createHistory from 'history/createBrowserHistory';
 
 import App from './App';
 import getStore from './getStore';
 
-const store = getStore();
+const history = createHistory();
+
+const store = getStore(history);
 
 const fetchDataForLocation = () => store.dispatch({ type: 'REQUEST_FETCH_QUESTIONS' });
 
 const render = (_App) => {
   ReactDOM.render(
     <Provider store={store}>
-      <_App/>
+      <ConnectedRouter history={history}>
+        <_App/>
+      </ConnectedRouter>
     </Provider>,
     document.getElementById('AppContainer')
   );

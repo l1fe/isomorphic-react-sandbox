@@ -12,6 +12,8 @@ import { question, questions } from '../data/api-real-url';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { Provider } from 'react-redux';
+import { ConnectedRouter } from 'react-router-redux';
+import createHistory from 'history/createMemoryHistory';
 import getStore from '../src/getStore';
 import App from '../src/App';
 
@@ -46,13 +48,13 @@ function* getQuestion(questionId) {
   return data;
 }
 
-app.get(['/api/questions'], function* (req,res) {
+app.get(['/api/questions'], function* (req, res) {
   const data = yield getQuestions();
   yield delay(150);
   return res.json(data);
 });
 
-app.get(['/api/questions/:id'], function* (req,res) {
+app.get(['/api/questions/:id'], function* (req, res) {
   const data = yield getQuestion(req.params.id);
   yield delay(150);
   return res.json(data);
@@ -69,20 +71,26 @@ if (process.env.NODE_ENV === 'development') {
   app.use(require('webpack-hot-middleware')(compiler));
 }
 
-app.get(['/'], function* (req,res) {
+app.get(['/', '/questions/:id'], function* (req, res) {
   let index = yield fs.readFile('public/index.html', 'utf-8');
 
   const initialState = { questions: { items: [] } };
 
+  const history = createHistory({
+    initialEntries: [req.path],
+  });
+
   const questions = yield getQuestions();
   initialState.questions.items = questions.items;
 
-  const store = getStore(initialState);
+  const store = getStore(history, initialState);
 
   if (useServerRender) {
     const appRendered = renderToString(
       <Provider store={store}>
-        <App />
+        <ConnectedRouter history={history}>
+          <App />
+        </ConnectedRouter>
       </Provider>
     );
     index = index.replace('<%= preloadedApplication %>', appRendered);
