@@ -80,8 +80,17 @@ app.get(['/', '/questions/:id'], function* (req, res) {
     initialEntries: [req.path],
   });
 
-  const questions = yield getQuestions();
-  initialState.questions.items = questions.items;
+  if (req.params.id) {
+    const questionId = req.params.id;
+    const data = yield getQuestion(questionId);
+    const questionDetails = data.items[0];
+
+    console.log('Got question details', questionDetails);
+    initialState.questions.items = [{ ...questionDetails, question_id: questionId }];
+  } else {
+    const questions = yield getQuestions();
+    initialState.questions.items = questions.items;
+  }
 
   const store = getStore(history, initialState);
 

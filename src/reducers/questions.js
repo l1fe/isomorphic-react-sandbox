@@ -10,8 +10,15 @@ export const questions = (state = initialState, action) => {
   if (action.type === 'FETCHED_QUESTIONS') {
     const items = action.questions;
     return Immutable(state).merge({
-      items,
-    });
+      items: [...state.items, ...items],
+    }, { deep: true });
+  }
+
+  if (action.type === 'FETCHED_QUESTION') {
+    const item = action.question;
+    return Immutable(state).merge({
+      items: [...state.items, item],
+    }, { deep: true });
   }
 
   return state;

@@ -4,7 +4,8 @@ import createSagaMiddleware from 'redux-saga';
 import { createLogger } from 'redux-logger';
 import { routerReducer as router, routerMiddleware } from 'react-router-redux';
 
-import fetchQuestionsSaga from './sagas/fetch-questions.saga';
+import rootSaga from './sagas';
+
 import * as reducers from './reducers';
 
 const defaultState = {
@@ -29,7 +30,7 @@ export default function(history, state = defaultState) {
     applyMiddleware(...middlewareChain),
   );
 
-  sagaMiddleware.run(fetchQuestionsSaga);
+  sagaMiddleware.run(rootSaga);
 
   return store;
 };
